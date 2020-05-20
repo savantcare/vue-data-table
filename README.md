@@ -8,7 +8,7 @@ B. [Optimize doctor time to Change information (shortest hand movement)](#how-to
 
 # How to optimize doctor time to gather information (visual density)?
 
-1. Tabbed tables -> First tab shows table 1 and 2nd tab shows table 2. Used at "Your recommendations" "Others recommendations"
+1. Tabbed tables -> First tab shows table 1 and 2nd tab shows table. In the above screenshot there are three tables 1. "Your recommendations" 2. "Others recommendations" and 3. "Custom"
 
    For the tabs each tab can be a table component. And the tabs are displayed using Vue’s <component> element with the is special attribute:
    https://vuejs.org/v2/guide/components.html#Dynamic-Components
