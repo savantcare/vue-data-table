@@ -55,6 +55,8 @@ B. [Optimize doctor time to Change information (shortest hand movement)](#how-to
 
 5. Drag to reorder rows. e.g. some recs are more important then others.
 
+   ![card-table-features](./docs/rex-ordering-demo.gif)
+
 6. Double clicking on a data row executes the first action of that data row.
 
 7. Pressing enter on a data row executes the first action of that data row.
