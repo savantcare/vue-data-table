@@ -1,3 +1,5 @@
+![what-is-the-core-problem](./docs/what-is-the-core-problem.png)
+
 # This data table has 2 goals:
 
 A. [Optimize doctor time to gather information (visual density)](#how-to-optimize-doctor-time-to-gather-information-visual-density)
