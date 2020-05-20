@@ -3,7 +3,7 @@
 
 ![card-table-features](./docs/analyzing-features-of-card-table.png)
 
-Features needed:
+## Features needed:
 
 1. KB to go up and down the data rows
 2. Multi select using only KB or mouse.
@@ -18,7 +18,18 @@ https://vuejs.org/v2/guide/components.html#Dynamic-Components
 
 7. Responsive tables https://elvery.net/demo/responsive-tables/ -> less important columns are hidden and that data is sent to tooltip. For e.g. in case of recommendations -> Created at and Actions are less important columns and they are hidden when width is less. The content of created at is sent to tooltip.
 
-| Libraries compared                           |  Responsive            |  Stars          | Size
+8. Each cell may have additional data passed in the Json to show in a tooltip
+![card-table-features](./docs/additional-data-for-a-cell-shown-in-tooltip.png)
+Reason: 99% of the time date of recs added is enough. For the hour and time of rex added the data sent in json is shown in a tooltip.
+
+9. The actions are shown as a overlay
+![card-table-features](./docs/action-as-overlay.png)
+
+Reason: If there are 10 data rows with 5 actions each. We do not want to show 50 action icons. The first look is clean. When doctor gets into the context of working on a data row only then 5 action icons are shown.
+
+## Libraries compared 
+
+| URL                                          |  Responsive            |  Stars          | Size
 |--                                            |--                      |--               |--
 | https://github.com/huangshuwei/vue-easytable |                        |                 |
 | https://github.com/ratiw/vuetable-2          |                        |                 |
