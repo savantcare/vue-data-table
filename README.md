@@ -37,6 +37,12 @@ B. [Optimize doctor time to Change information (shortest hand movement)](#how-to
     
     Client side data query is done through https://github.com/vuex-orm/vuex-orm using https://github.com/vuex-orm/plugin-axios
 
+6. Filter on a column not visible    
+
+   ![card-table-features](./docs/filter-on-col-not-visible.png)
+
+    In the above use case Dr. Parikh is interested in recommendations made to this patient by Dr. Savant.
+
 # How to optimize doctor time to change information (shortest hand movement)?
 
 1. KB to go up and down the data rows
