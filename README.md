@@ -1,8 +1,8 @@
 # This data table has 2 goals:
 
-A. [Optimize doctor time to gather information (visual density)](a-optimizing-doctor-time-to-gather-information-visual-density) 
+A. [Optimize doctor time to gather information (visual density)](#how-to-optimize-doctor-time-to-gather-information-visual-density)
 
-B. [Optimize doctor time to Change information (shortest hand movement)](#b-optimizing-doctor-time-to-change-information-shortest-hand-movement)
+B. [Optimize doctor time to Change information (shortest hand movement)](#how-to-optimize-doctor-time-to-change-information-shortest-hand-movement)
 
 ![card-table-features](./docs/analyzing-features-of-card-table.png)
 
