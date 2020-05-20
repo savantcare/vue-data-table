@@ -1,26 +1,15 @@
 # Use exisitng table library Vs. extend vue draggable/b-table?
 
-Variables optimizing for: Doctor time to A. Gather information (visual density) B. Change information (shortest hand movement).
+Goal is to optimize 2 Variables:
+
+A. Doctor time to gather information (visual density) 
+
+B. Doctor time to Change information (shortest hand movement).
 
 ![card-table-features](./docs/analyzing-features-of-card-table.png)
 
-## A. Change information (shortest hand movement)
 
-1. KB to go up and down the data rows
-
-2. Multi select using only KB or mouse.
-
-3. Actions for each data row invoked using keyboard single key.
-
-4. When multiple rows are selected then invoke "Multi select actions"
-
-5. Drag to reorder rows. e.g. some recs are more important then others.
-
-6. Double clicking on a data row executes the first action of that data row.
-
-7. Pressing enter on a data row executes the first action of that data row.
-
-## B. Gather information (visual density)
+## A. Optimizing doctor time to gather information (visual density)
 
 1. Tabbed tables -> First tab shows table 1 and 2nd tab shows table 2. Used at "Your recommendations" "Others recommendations"
 
@@ -42,6 +31,29 @@ Variables optimizing for: Doctor time to A. Gather information (visual density) 
     ![card-table-features](./docs/action-as-overlay.png)
     
     Reason: If there are 10 data rows with 5 actions each. We do not want to show 50 action icons. The first 		look is clean. When doctor gets into the context of working on a data row only then 5 action icons are 		shown.
+
+5. Data table previous appointment state can be recalled. 
+
+    ![card-table-features](./docs/multiple-temporal-states.png)
+    
+    Client side data query is done through https://github.com/vuex-orm/vuex-orm using https://github.com/vuex-orm/plugin-axios
+
+## B. Optimizing doctor time to change information (shortest hand movement)
+
+1. KB to go up and down the data rows
+
+2. Multi select using only KB or mouse.
+
+3. Actions for each data row invoked using keyboard single key.
+
+4. When multiple rows are selected then invoke "Multi select actions"
+
+5. Drag to reorder rows. e.g. some recs are more important then others.
+
+6. Double clicking on a data row executes the first action of that data row.
+
+7. Pressing enter on a data row executes the first action of that data row.
+
 
 
 ## Libraries compared 
