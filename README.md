@@ -65,7 +65,10 @@ B. [Optimize doctor time to Change information (shortest hand movement)](#how-to
 
 6. Double clicking on a data row executes the first action of that data row.
 
-7. Pressing enter on a data row executes the first action of that data row.
+7. All actions of a data row can be invoked using just arrow keys and enter.
+
+    1. Pressing enter on a data row executes the first action of that data row.
+    2. Pressing right will give a box around the 2nd action. And then pressing enter will invoke the 2nd action
 
 
 
