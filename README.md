@@ -1,15 +1,12 @@
-# Use exisitng table library Vs. extend vue draggable/b-table?
+# This data table has 2 goals:
 
-Goal is to optimize 2 Variables:
+A. [Optimize doctor time to gather information (visual density)](a-optimizing-doctor-time-to-gather-information-visual-density) 
 
-A. Doctor time to gather information (visual density) 
-
-B. Doctor time to Change information (shortest hand movement).
+B. [Optimize doctor time to Change information (shortest hand movement)](#b-optimizing-doctor-time-to-change-information-shortest-hand-movement)
 
 ![card-table-features](./docs/analyzing-features-of-card-table.png)
 
-
-## A. Optimizing doctor time to gather information (visual density)
+# How to optimize doctor time to gather information (visual density)?
 
 1. Tabbed tables -> First tab shows table 1 and 2nd tab shows table 2. Used at "Your recommendations" "Others recommendations"
 
@@ -38,7 +35,7 @@ B. Doctor time to Change information (shortest hand movement).
     
     Client side data query is done through https://github.com/vuex-orm/vuex-orm using https://github.com/vuex-orm/plugin-axios
 
-## B. Optimizing doctor time to change information (shortest hand movement)
+# How to optimize doctor time to change information (shortest hand movement)?
 
 1. KB to go up and down the data rows
 
@@ -56,7 +53,7 @@ B. Doctor time to Change information (shortest hand movement).
 
 
 
-## Libraries compared 
+# Libraries compared 
 
 | URL                                          |  Responsive            |  Stars          | Size
 |--                                            |--                      |--               |--
@@ -65,7 +62,7 @@ B. Doctor time to Change information (shortest hand movement).
 | https://github.com/xaksis/vue-good-table     |                        |                 |
 
 
-## Current choice:
+# Tech stack choice:
 
 Example of draggable and responsive table in VUE https://jsfiddle.net/d7jqtkon/
 
