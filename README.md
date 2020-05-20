@@ -10,14 +10,14 @@ B. [Optimize doctor time to Change information (shortest hand movement)](#how-to
 
 # How to optimize doctor time to gather information (visual density)?
 
-1. Tabbed tables -> First tab shows table 1 and 2nd tab shows table. In the above screenshot there are three tables 1. "Your recommendations" 2. "Others recommendations" and 3. "Custom"
+1. Tabbed tables -> In the above screenshot there are three tables 1. "Your recommendations" 2. "Others recommendations" and 3. "Custom"
 
-   For the tabs each tab can be a table component. And the tabs are displayed using Vue’s <component> element with the is special attribute:
+   Each tab is a table component. And the tabs are displayed using Vue’s <component> element with the is special attribute:
    https://vuejs.org/v2/guide/components.html#Dynamic-Components
 
 2. Responsive tables https://elvery.net/demo/responsive-tables/ -> 
 
-    Less important columns are hidden and that data is sent to tooltip. For e.g. in case of recommendations -> Created at and Actions are less important columns and they are hidden when width is less. The content of created at is sent to tooltip.
+    Less important columns are hidden and that data is sent to tooltip. For e.g. in case of recommendations -> Created at is less important column and it can be hidden when width is less. The content of created at is shown as tooltip when mouse is taken over the first column.
 
 3. Each cell may have additional data passed in the Json to show in a tooltip
 
